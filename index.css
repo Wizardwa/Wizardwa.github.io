@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    background-image: url('3d-background-dark-5120x2880-11029.png');
+    background-position: center;
+    background-size: cover;
+}
+.navigation{
+    display: flex;
+    justify-content: flex-end;
+    background-image: url('3d-background-dark-5120x2880-11029.png');
+    min-height: 0;
+    height: 10%;
+}
+.navigation ul li{
+    display: inline-block;
+}
+.navigation ul li:nth-child(1){
+    width: 1000px;
+    text-shadow: 0 1px #808d93, -1px 0 #cdd2d5, -1px 2px #808d93, -2px 1px #cdd2d5, -2px 3px #808d93, -3px 2px #cdd2d5, -3px 4px #808d93, -4px 3px #cdd2d5, -4px 5px #808d93, -5px 4px #cdd2d5, -5px 6px #808d93, -6px 5px #cdd2d5, -6px 7px #808d93, -7px 6px #cdd2d5, -7px 8px #808d93, -8px 7px #cdd2d5;
+}
+.navigation ul li:nth-child(2){
+    width: 200px;
+}
+.navigation ul li:nth-child(3){
+    width: 200px;
+}
+.navigation ul li:nth-child(4){
+    width: 180px;
+}
+.navigation ul li a{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    color: white;
+}
+.navigation ul li a:hover{
+    color: yellow;
+    opacity: 22%;
+}
+.button{
+    border-color: none;
+    border-radius: 0.5cm;
+    background-color: lightblue;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    min-height: 10px;
+}
+.button:hover{
+    background-color: yellow;
+    opacity: 50%;
+}
+.card{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 17px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-radius: 20pt;
+    padding-left: 30pt;
+    padding-right: 20pt;
+    background-color:  #1e2761;
+    width: 400px;
+    height: 400px;
+    margin: 30px;
+    right: -1200px;
+}
+.card{
+    position: relative;
+    animation: slide 5s infinite;
+}
+@keyframes slide {
+    0%   {top: 0px;}
+    25%  {top: 200px;}
+    75%  {top: 50px}
+    100% {top: 100px;}
+}
+.card2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 17px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-radius: 20pt;
+    padding-left: 30pt;
+    padding-right: 20pt;
+    background-color:  #1e2761;
+    width: 400px;
+    height: 400px;
+    margin: 30px;
+}
+.card2:hover{
+    position: relative;
+    animation: slide2 5s infinite;
+}
+@keyframes slide2 {
+    0%   {top: 0px;}
+    25%  {top: 200px;}
+    75%  {top: 50px}
+    100% {top: 100px;}
+}
+.footer{
+    display: flex;
+    background-color:  #08192b;
+    justify-content: space-around;
+    height: 25%;
+    background-image: url('3d-background-dark-5120x2880-11029.png');
+}
+.footer ul{
+    color: white;
+}
+.footer ul li{
+    list-style: none;
+}
+.footer ul li a{
+    text-decoration: none;
+    color: white;
+}
+.icons{
+    width: 20px;
+    height: 20px;
+}
+.footer ul li:hover{
+    color: blue;
+    opacity: 10%;
+}
+.card3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 17px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-radius: 20pt;
+    padding-left: 30pt;
+    padding-right: 20pt;
+    background-color:  #1e2761;
+    width: 400px;
+    height: 400px;
+    margin: 30px;
+    right: -1200px;
+}
+.card3{
+    position: relative;
+    animation: slide 5s infinite;
+}
+@keyframes slide {
+    0%   {top: 0px;}
+    25%  {top: 200px;}
+    75%  {top: 50px}
+    100% {top: 100px;}
+}
+.card4{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 17px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-radius: 20pt;
+    padding-left: 30pt;
+    padding-right: 20pt;
+    background-color:  #1e2761;
+    width: 400px;
+    height: 400px;
+    margin: 30px;
+}
+.card4:hover{
+    position: relative;
+    animation: slide 5s infinite;
+}
+@keyframes slide {
+    0%   {top: 0px;}
+    25%  {top: 200px;}
+    75%  {top: 50px}
+    100% {top: 100px;}
+}
